@@ -78,7 +78,7 @@ h1.grey, h2.grey, h3.grey, h4.grey, h5.grey, h6.grey{
 
 .text-white:hover{color: #fff;}
 
-.text-green{color: #8dc63f;}
+.text-green{color: #3c7e00;}
 
 .text-green:hover{color: #39b54a;}
 
@@ -112,7 +112,7 @@ section h2.sub-title{
 
 
 .following{
-  color: #8dc63f;
+  color: #3c7e00;
   font-size: 12px;
   margin-left: 20px;
 }
@@ -758,7 +758,7 @@ ul.nav-news-feed li i{
   float: left;
 }
 
-ul.nav-news-feed i.ion-ios-paper{color: #8dc63f;}
+ul.nav-news-feed i.ion-ios-paper{color: #3c7e00;}
 
 ul.nav-news-feed i.ion-ios-people{color: #662d91;}
 
@@ -778,7 +778,7 @@ ul.nav-news-feed i.ion-ios-videocam{color: #9e1f63;}
 }
 
 #chat-block .title{
-  background: #8dc63f;
+  background: #3c7e00;
   padding: 5px 20px;
   width: 70%;
   height: 30px;
@@ -1017,7 +1017,7 @@ ul.online-users li span.online-dot{
 
 .chat-room ul.contact-list li a:hover, .chat-room ul.contact-list li a:active, .chat-room ul.contact-list li a:focus{
   border: none;
-  border-bottom: 1px solid #8dc63f !important;
+  border-bottom: 1px solid #3c7e00 !important;
   border-radius: 0;
   cursor: pointer;
   background: none;
@@ -1340,7 +1340,7 @@ ul.online-users li span.online-dot{
 }
 
 .feed-item::before{
-  border-left: 2px solid #8dc63f;
+  border-left: 2px solid black;
   position: absolute;
   height: 30px;
   content: "";
@@ -1374,7 +1374,7 @@ ul.online-users li span.online-dot{
   width: 1px;
   height: 98%;
   left: -145px;
-  border-left: 2px solid #8dc63f;
+  border-left: 2px solid black;
   top: 15px;
 }
 
@@ -1385,7 +1385,7 @@ ul.online-users li span.online-dot{
 
 .timeline .post-content .post-date::before{
   content: "";
-  background: #8dc63f;
+  background: black;
   position: absolute;
   width: 20px;
   height: 20px;
@@ -1438,7 +1438,7 @@ ul.online-users li span.online-dot{
 ul.interests span.int-icons{
   color: #fff;
   font-size: 25px;
-  color: #8dc63f;
+  color: #3c7e00;
   cursor: pointer;
 }
 
@@ -1534,7 +1534,7 @@ ul.album-photos li img{
 .contact-us .reach span{
   border: 1px solid #f1f2f2;
   position: absolute;
-  color: #8DC63F;
+  color: #3c7e00;
   height: 40px;
   width: 40px;
   border-radius: 50%;

@@ -7,6 +7,8 @@ import {ContactComponent} from "./components/contact/contact.component";
 import {UserHomeComponent} from "./components/user-home/user-home.component";
 import {TimeLinesComponent} from "./components/time-lines/time-lines.component";
 import {MainPageComponent} from "./components/user-home/main-page/main-page.component";
+import {TimeLineDetailesComponent} from "./components/time-lines/time-line-detailes/time-line-detailes.component";
+import {TimeAlbumComponent} from "./components/time-lines/time-album/time-album.component";
 
 @Component({
   selector: 'app-root',
@@ -19,7 +21,9 @@ import {MainPageComponent} from "./components/user-home/main-page/main-page.comp
     ContactComponent,
     UserHomeComponent,
     TimeLinesComponent,
-    MainPageComponent
+    MainPageComponent,
+    TimeLineDetailesComponent,
+    TimeAlbumComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

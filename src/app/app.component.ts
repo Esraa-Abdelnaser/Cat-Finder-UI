@@ -5,6 +5,7 @@ import {HeaderComponent} from "./components/header/header.component";
 import {SignupComponent} from "./components/signup/signup.component";
 import {ContactComponent} from "./components/contact/contact.component";
 import {UserHomeComponent} from "./components/user-home/user-home.component";
+import {TimeLinesComponent} from "./components/time-lines/time-lines.component";
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import {UserHomeComponent} from "./components/user-home/user-home.component";
     HeaderComponent,
     SignupComponent,
     ContactComponent,
-    UserHomeComponent
+    UserHomeComponent,
+    TimeLinesComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

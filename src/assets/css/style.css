@@ -20,7 +20,7 @@
       - Image Divider
       - Site Facts
       - Live Feed
-    - Newsfeed 
+    - Newsfeed
       - Left Sidebar
       - Right Sidebar
       - Create Post Box
@@ -28,7 +28,7 @@
       - Nearby People
       - Friend List
       - Chat Room
-      - Media: image and video 
+      - Media: image and video
     - Timeline
       - Timeline Sidebar
       - Post Date
@@ -67,7 +67,7 @@ body{
     src: url("../fonts/agency-fb.ttf") /* TTF file for CSS3 browsers */
 }
 
-h1, h2, h3, h4, h5, h6{color: #27aae1;}
+h1, h2, h3, h4, h5, h6{color: black;}
 
 h1.grey, h2.grey, h3.grey, h4.grey, h5.grey, h6.grey{
   color: #6d6e71;
@@ -90,7 +90,7 @@ h1.grey, h2.grey, h3.grey, h4.grey, h5.grey, h6.grey{
 
 .text-muted{color: #939598;}
 
-a{color: #27aae1;}
+a{color: black;}
 
 a:hover{color: #149AC9;}
 
@@ -134,7 +134,7 @@ section .wrapper{
 }
 
 .btn-primary{
-	background: #27aae1;
+	background: black;
 	padding: 5px 20px;
 	border: none;
 	font-size: 14px;
@@ -317,13 +317,13 @@ textarea{
 }
 
 .menu ul.main-menu li.dropdown a:hover, .menu ul.main-menu li.dropdown a:active, .menu ul.main-menu li.dropdown a:focus{
-  color: #27aae1;
+  color: black;
   background: none;
 }
 
 .menu ul.main-menu li.open a, .menu ul.main-menu li.open a:active, .menu ul.main-menu li.open a:focus{
   background: transparent;
-  color: #27aae1;
+  color: black;
 }
 
 .menu ul.main-menu li ul.dropdown-menu{
@@ -402,7 +402,7 @@ textarea{
 
 .sign-up-form:after{
   content: "";
-  border-color: #27aae1 transparent transparent;
+  border-color: black transparent transparent;
   border-style: solid;
   border-width: 40px 170px 0;
   bottom: -40px;
@@ -498,7 +498,7 @@ textarea{
 }
 
 #features .feature-item .feature-icon:hover{
-  background: #27aae1;
+  background: black;
   transition: all 1s;
 }
 
@@ -511,7 +511,7 @@ textarea{
   background: #f8f8f8 none repeat scroll 0 0;
   border: 1px solid #fff;
   border-radius: 4px;
-  color: #27aae1;
+  color: black;
   display: inline-block;
   height: 64px;
   line-height: 62px;
@@ -606,7 +606,7 @@ textarea{
 }
 
 #site-facts .circle{
-  background: #27aae1;
+  background: black;
   width: 660px;
   height: 660px;
   border-radius: 50%;
@@ -700,7 +700,7 @@ textarea{
 /*Profile Card CSS*/
 
 .profile-card{
-  background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8)), url(../images/covers/1.jpg) no-repeat;
+  background: linear-gradient(to bottom, rgba(240, 250, 250, 0.8), rgb(0, 0, 0)), url(../images/covers/1.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 90px;
@@ -886,7 +886,7 @@ ul.online-users li span.online-dot{
 }
 
 .create-post .tools ul.publishing-tools li a:hover{
-  color: #27aae1;
+  color: black;
 }
 
 
@@ -1259,11 +1259,11 @@ ul.online-users li span.online-dot{
 }
 
 .timeline-cover .timeline-nav-bar .profile-menu li a.active{
-  color: #27aae1;
+  color: black;
 }
 
 .timeline-cover .timeline-nav-bar .profile-menu li a:hover{
-  color: #27aae1;
+  color: black;
 }
 
 .timeline-cover .timeline-nav-bar ul.follow-me{
@@ -1324,7 +1324,7 @@ ul.online-users li span.online-dot{
 }
 
 .timeline-cover .navbar-mobile .mobile-menu ul li a.active{
-  color: #27aae1;
+  color: black;
 }
 
 
@@ -1418,7 +1418,7 @@ ul.online-users li span.online-dot{
 
 .about-profile .about-content-block h4 i.icon-in-title{
   margin-right: 15px;
-  color: #27aae1;
+  color: black;
 }
 
 .about-profile .about-content-block .organization img.img-org{
@@ -1563,7 +1563,7 @@ ul.album-photos li img{
 
 #footer::before{
   content: "";
-  background: linear-gradient(to right, #ffffff 0%,#53cbf1 50%,#ffffff 100%);
+  background: linear-gradient(to right, #ffffff 0%, #333 50%, #ffffff 100%);
   height: 5px;
   width: 100%;
   position: absolute;
@@ -1605,7 +1605,7 @@ ul.social-icons li a{
 }
 
 ul.social-icons li a:hover{
-  color: #27aae1;
+  color: black;
   transition: all 1s;
 }
 
@@ -1618,7 +1618,7 @@ ul.footer-links li a{
 }
 
 ul.footer-links li a:hover{
-  color: #27aae1;
+  color: black;
 }
 
 ul.contact{
@@ -1638,7 +1638,7 @@ ul.contact li{
 ul.contact li i{
   font-size: 18px;
   margin-right: 20px;
-  color: #27AAE1;
+  color: black;
 }
 
 .copyright{
@@ -1656,7 +1656,7 @@ ul.contact li i{
 @media only screen and (max-width : 992px) {
 
   section h1.section-title{font-size: 175px; margin-bottom: -40px;}
-  
+
   #features .feature-item{margin-bottom: 20px;}
 
   #features .item{margin-bottom: 20px;}
@@ -1676,7 +1676,7 @@ ul.contact li i{
   .sign-up-form{left: 0; right: 0; margin: auto;}
 
   section h1.section-title{font-size: 90px !important; margin-bottom: 0 !important;}
-  
+
   #features .feature-item{margin-bottom: 20px;}
 
   #site-facts .circle{width: 100%; border-radius: 1000px;}
@@ -1843,7 +1843,7 @@ ul.contact li i{
 }
 
 .arrows path {
-	stroke: #27aae1;
+	stroke: black;
 	fill: transparent;
 	stroke-width: 1px;
 	animation: arrow 2s infinite;
@@ -1889,7 +1889,7 @@ ul.contact li i{
 .spinner {
   width: 40px;
   height: 40px;
-  background-color: #27aae1;
+  background-color: black;
   position: absolute;
   top: 48%;
   left: 48%;
